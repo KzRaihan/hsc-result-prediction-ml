@@ -1,0 +1,14 @@
+artifact_uri: file:e:/Project/hsc-result-prediction-ml/mlruns_HSC/377105159900297807/d11632209fc84a3590f84e297468db27/artifacts
+end_time: 1768665993177
+entry_point_name: ''
+experiment_id: '377105159900297807'
+lifecycle_stage: active
+run_id: d11632209fc84a3590f84e297468db27
+run_name: Fianl_Model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768665990520
+status: 3
+tags: []
+user_id: KzRaihan
