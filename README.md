@@ -78,41 +78,16 @@ All preprocessing (encoding, imputation, scaling) is handled using a **Scikit-le
 
 ## 🗂️ Project Structure
 
-hsc-result-prediction-ml/
-
+hsc-result-predictor/
 │
-
-├── data/
-
-│   └── bangladesh_student_performance.csv
-
+├── app.py
+├── model/
+│   └── rf_model.py
 │
-
-├── notebooks/
-
-│   └── student_hsc_result.ipynb
-
-│
-
-├── models/
-
-│   └── final_model.pkl
-
-│
-
-├── app/
-
-│   └── app.py
-
-│
-
 ├── requirements.txt
-
 ├── README.md
+└── .gitignore
 
-├── .gitignore
-
-└── LICENSE
 
 ## 🚀 How to Run the Application
 
@@ -147,7 +122,6 @@ pip install -r requirements.txt
 python app.py
 ```
 
-
 ## 📌 Future Improvements
 
 * Add model explainability (SHAP / feature importance)
@@ -156,7 +130,6 @@ python app.py
 * Add multilingual (Bangla) interface
 * Compare with XGBoost and Neural Networks
 
-
 ## 👨‍💻 Author
 
 **Md Kamruzzaman Raihan**
@@ -164,7 +137,6 @@ python app.py
 BSc in Computer Science & Engineering
 
 Focus: Machine Learning, Deep Learning, Applied AI
-
 
 ## 📄 License
 
