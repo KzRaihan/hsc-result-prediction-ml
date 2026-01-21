@@ -3,10 +3,16 @@
 
 
 
+
 <p align="center">
-  <img src="https://drive.google.com/file/d/1oVlGvp1-WVUoC6VkMKzL6G6oSD6fzUX5/view?usp=sharing" 
-       alt="Banner Image" width="98%" height="100%">
+  <img 
+    <img src="https://drive.google.com/uc?export=view&id=1oVlGvp1-WVUoC6VkMKzL6G6oSD6fzUX5" alt="Banner">
+    alt="HSC Result Predictor Banner" 
+    width="96%" 
+    height="99%"
+  >
 </p>
+
 
 
 A machine learning–based web application that predicts **HSC (Higher Secondary Certificate) results** for Bangladeshi students using historical academic and socio-economic data.
