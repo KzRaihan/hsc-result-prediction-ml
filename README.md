@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=14CntXRre-iLbX35bRPSE9qvsXopw3gck" 
-       alt="Banner Image" width="100%" height="250">
+       alt="Banner Image" width="100%" height="90">
 </p>
 
 
