@@ -88,7 +88,6 @@ hsc-result-predictor/
 ├── README.md
 └── .gitignore
 
-
 ## 🚀 How to Run the Application
 
 1️⃣ Clone the Repository

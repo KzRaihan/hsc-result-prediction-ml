@@ -5,12 +5,15 @@
 import gradio as gr
 import pandas as pd
 import numpy as np
-import joblib
+import pickle
+
 
 # -------------------------------
-# Load Trained Pipeline
+# 1. Load Trained Pipeline
 # -------------------------------
-model = joblib.load("student_rf_pipeline.pkl")
+with open("student_rf_pipeline.pkl", "rb") as f:
+    model = pickle.load(f)
+
 
 # -------------------------------
 # Prediction Function
@@ -21,9 +24,16 @@ def predict_gpa(
     relationship, smoker, tuition_fee,
     time_friends, ssc_result
 ):
-    # Basic input validation
-    if age <= 0 or tuition_fee < 0 or not (0 <= ssc_result <= 5):
-        return "❌ Please enter valid input values."
+        # 🔐 Input Validation
+    if age is None or age <= 0 or age > 100:
+        return "❌ Age must be between 1 and 100."
+    
+    
+    if ssc_result is None or ssc_result <= 0.0 or ssc_result > 5.00:
+        return "❌ SSC Result must be between 2.50 and 5.00."
+    
+    if tuition_fee < 0 or tuition_fee > 134168.00:
+        return "❌ Please enter valid tuition fee (0-134168)"
 
     input_df = pd.DataFrame([{
         "gender": gender,
@@ -45,7 +55,7 @@ def predict_gpa(
     prediction = model.predict(input_df)[0]
     prediction = np.clip(prediction, 0, 5)
 
-    return f"🎓 Predicted HSC GPA: {prediction:.2f}\n\n⚠️ This is a prediction based on historical data."
+    return f"🎓 Predicted HSC GPA: {prediction:.2f}"
 
 # -------------------------------
 # Gradio Interface
