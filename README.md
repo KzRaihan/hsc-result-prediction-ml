@@ -7,7 +7,6 @@
 <p align="center">
   <img 
     <img src="https://drive.google.com/uc?export=view&id=1oVlGvp1-WVUoC6VkMKzL6G6oSD6fzUX5" alt="Banner">
-    alt="HSC Result Predictor Banner" 
     width="96%" 
     height="99%"
   >
