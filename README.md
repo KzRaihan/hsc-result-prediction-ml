@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=14CntXRre-iLbX35bRPSE9qvsXopw3gck" 
+  <img src="https://drive.google.com/file/d/1oVlGvp1-WVUoC6VkMKzL6G6oSD6fzUX5/view?usp=sharing" 
        alt="Banner Image" width="98%" height="100%">
 </p>
 
