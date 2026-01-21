@@ -15,8 +15,6 @@ from sklearn.metrics import mean_squared_error, r2_score
 # =====================
 df = pd.read_csv("bangladesh_student_performance.csv")
 
-print(df)
-
 # Drop date column
 if 'date' in df.columns:
     df.drop(columns=['date'], inplace=True)
@@ -35,8 +33,7 @@ categorical_features = X.select_dtypes(include=['object']).columns
 # Train-test split
 # ====================
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
+    X, y, test_size=0.2, random_state=42)
 
 # =====================
 # Preprocessing
@@ -89,7 +86,7 @@ print(f"RMSE: {rmse:.4f}")
 print(f"R2 Score: {r2:.4f}")
 
 # =====================
-# Save model (IMPORTANT)
+# Save model 
 # =====================
 
 with open("student_rf_pipeline.pkl", "wb") as f:

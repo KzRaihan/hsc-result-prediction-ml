@@ -1,4 +1,13 @@
-# 🎓 HSC Result Prediction using Machine Learning
+
+<h1 align="center"> 🎓 HSC result predictor for Bangladesh </h1>
+
+
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=14CntXRre-iLbX35bRPSE9qvsXopw3gck" 
+       alt="Banner Image" width="100%" height="250">
+</p>
+
 
 A machine learning–based web application that predicts **HSC (Higher Secondary Certificate) results** for Bangladeshi students using historical academic and socio-economic data.
 The system is built using a **Random Forest Regression model** and deployed with **Gradio** for an interactive user interface.
