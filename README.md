@@ -1,16 +1,14 @@
 
-<h1 align="center"> 🎓 HSC result predictor for Bangladesh </h1>
+<h1 align="center"> 🎓 𝙃𝙎𝘾 𝙍𝙚𝙨𝙪𝙡𝙩 𝙋𝙧𝙚𝙙𝙞𝙘𝙩𝙤𝙧 𝙛𝙤𝙧 𝘽𝙖𝙣𝙜𝙡𝙖𝙙𝙚𝙨𝙝 </h1>
 
 
 
 
 <p align="center">
-  <img 
-    <img src="https://drive.google.com/uc?export=view&id=1oVlGvp1-WVUoC6VkMKzL6G6oSD6fzUX5" alt="Banner">
-    width="96%" 
-    height="99%"
-  >
+  <img src="https://drive.google.com/uc?export=view&id=1oVlGvp1-WVUoC6VkMKzL6G6oSD6fzUX5" 
+       alt="HSC Result Predictor Banner Image" width="98%" height="97%">
 </p>
+
 
 
 
